@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content= "Contacta a Sur Conectado para soporte técnico, reparaciones y consultas en Puerto Saavedra, La Araucanía." />
+  <title>Contacto | Sur Conectado</title>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Ir al contenido principal</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="../index.html" class="logo" aria-label="Sur Conectado | Inicio">
+        <span class="logo-icon" aria-hidden="true">◈</span>
+        <span class="logo-text">Sur<strong>Conectado</strong></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <ul role="list">
+          <li><a href="../index.html" class="nav-link">Inicio</a></li>
+          <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+          <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+          <li><a href="contacto.html" class="nav-link active" aria-current="page">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="contacto.html" class="btn btn-primary">Diagnóstico gratis</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú de navegación">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <ul role="list">
+        <li><a href="../index.html" class="nav-link">Inicio</a></li>
+        <li><a href="servicios.html" class="nav-link">Servicios</a></li>
+        <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <h1 id="page-title">Contáctanos</h1>
+        <p>Respondemos todos los mensajes en menos de 2 horas en horario hábil.</p>
+      </div>
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-heading">
+      <div class="container contact-grid">
+
+        <!-- Información de contacto -->
+        <div class="contact-info">
+          <h2 id="contact-heading">Información de contacto</h2>
+          <p>Puedes escribirnos, llamarnos o venir directamente. Estamos en Puerto Saavedra y atendemos a domicilio en comunas aledañas.</p>
+
+          <div class="contact-details" role="list">
+            <div class="contact-item" role="listitem">
+              <div class="c-icon" aria-hidden="true">📍</div>
+              <div>
+                <strong>Ubicación</strong>
+                <p>Puerto Saavedra, Región de La Araucanía, Chile</p>
+              </div>
+            </div>
+            <div class="contact-item" role="listitem">
+              <div class="c-icon" aria-hidden="true">📞</div>
+              <div>
+                <strong>Teléfono / WhatsApp</strong>
+                <a href="tel:+56912345678">+56 9 1234 5678</a>
+              </div>
+            </div>
+            <div class="contact-item" role="listitem">
+              <div class="c-icon" aria-hidden="true">✉</div>
+              <div>
+                <strong>Correo electrónico</strong>
+                <a href="mailto:hola@surconectado.cl">hola@surconectado.cl</a>
+              </div>
+            </div>
+            <div class="contact-item" role="listitem">
+              <div class="c-icon" aria-hidden="true">🕐</div>
+              <div>
+                <strong>Horario de atención</strong>
+                <p>Lunes a viernes: 10:00 – 20:00 hrs<br />Sábado No atendemos </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario -->
+        <div class="contact-form-wrap" role="region" aria-labelledby="form-title">
+          <h3 id="form-title">Envíanos un mensaje</h3>
+
+          <form action="#" method="post" novalidate aria-label="Formulario de contacto">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre <span aria-hidden="true">*</span><span class="sr-only">(obligatorio)</span></label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                  required
+                  autocomplete="given-name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input
+                  type="text"
+                  id="apellido"
+                  name="apellido"
+                  placeholder="Tu apellido"
+                  autocomplete="family-name"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico <span aria-hidden="true">*</span><span class="sr-only">(obligatorio)</span></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="tucorreo@ejemplo.com"
+                required
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                placeholder="+56 9 XXXX XXXX"
+                autocomplete="tel"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="servicio">Servicio de interés <span aria-hidden="true">*</span><span class="sr-only">(obligatorio)</span></label>
+              <select id="servicio" name="servicio" required>
+                <option value="" disabled selected>Selecciona un servicio</option>
+                <option value="reparacion">Reparación de PC / Notebook</option>
+                <option value="redes">Instalación de redes/Camaras de seguridad</option>
+                <option value="seguridad">Seguridad y antivirus</option>
+                <option value="remoto">Soporte técnico remoto</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Descripción del problema <span aria-hidden="true">*</span><span class="sr-only">(obligatorio)</span></label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                placeholder="Cuéntanos qué problema tiene tu equipo o qué servicio necesitas..."
+                required
+                rows="5"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg form-submit">
+              Enviar consulta
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Clase sr-only para accesibilidad -->
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo" aria-label="Sur Conectado – Inicio">
+          <span class="logo-icon" aria-hidden="true">◈</span>
+          <span class="logo-text">Sur<strong>Conectado</strong></span>
+        </a>
+        <p>Soluciones informáticas para personas y empresas en la Región de La Araucanía, Chile.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Navegación del pie de página">
+        <h3>Sitio</h3>
+        <ul role="list">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h3>Contacto</h3>
+        <address>
+          <p>📍 Puerto Saavedra, Región de La Araucanía</p>
+          <p>📞 <a href="tel:+56912345678">+56 9 999 999 99</a></p>
+          <p>✉ <a href="mailto:hola@surconectado.cl">RodrigoCEO@surconectado.cl</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Sur Conectado. Todos los derechos reservados.</p>
+        <p>Hecho con Pueto Saavedra, Chile.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const menu = document.getElementById('mobile-menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        menu.hidden = expanded;
+      });
+    }
+  </script>
+</body>
+</html>
